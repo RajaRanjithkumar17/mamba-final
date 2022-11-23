@@ -4,7 +4,7 @@
     box-sizing: border-box;
     z-index: 99;
 }
-.qbtn{
+.qbtn button{
     display: none;
 }
 
@@ -108,31 +108,6 @@ nav ul>li>a:hover{
     color: #37423b;
     font-weight: 600;
 }
-/* .drpdown{
-    position: relative;
-}
-.drpdown .droplink{
-    position: absolute;
-    top: 35px;
-    left: 0;
-    width: 180px;
-    background-color: #ffffff;
-    opacity: 0;
-    visibility: hidden;
-    box-shadow: 0 0 5px rgba(46, 35, 35, 0.568);
-    border-radius: 5px;
-	z-index: 5;
-}
-.drpdown ul{
-    padding-bottom: 10px;
-}
-.drpdown ul li{
-    padding-top: 10px;
-}
-.drpdown:hover .droplink{
-    opacity: 1;
-    visibility: visible;
-} */
 
 /* ----------nav sec ends----- */
 .flex-banner{
@@ -211,6 +186,7 @@ nav ul>li>a:hover{
 .flex-about-section{
     display: flex;
     flex-wrap: wrap;
+    padding: 10px;
     box-shadow: 0 5px 10px rgb(231, 239, 246);
 }
 .about-section-image{

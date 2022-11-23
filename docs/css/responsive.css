@@ -10,11 +10,38 @@
 .socia-contact,nav{
     display: none;
 }
-.qbtn{
+
+
+
+.qbtn button{
+    position: absolute;
+    right: 20px;
+    top: 40px;
     display: block;
     width: 30px;
     border: none;
+    margin-top: 15px;
+    height: 25px;
 }
+.navbar-nav  {
+   margin-top: 50px;
+   margin-right: 150px;
+
+}
+
+.navbar-nav li{
+    padding: 8px;
+    display: block;
+    
+}
+
+.show {
+    top: initial;
+    bottom: 230px;
+    width: 100%;
+    height: 230px;
+    transition: all ease 1s;
+  }
 .rowes {
     width: 100%;
     display: flex;
@@ -27,10 +54,18 @@
 .about-section-image{
     display: none;
 }
+.flex-about-section{
+    
+    padding: 10px;
+}
+.flex-features {
+    padding-top: 0;
+}
 .about-section-text {
   
     width: 100%;
 }
+
 .about-text-title{
     margin-top: 5px;
     padding-top: 5px;
@@ -101,3 +136,4 @@
 
 
 }
+
